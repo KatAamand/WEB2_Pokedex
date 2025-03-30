@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    text-align: center;
+    color: #ffe082;
+    margin: 0;
+  }
+  

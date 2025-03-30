@@ -1,0 +1,49 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'VT323', monospace;
+  background-color: #1c1c1c;
+  color: white;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #ffe082;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #c62828;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #e53935;
+}

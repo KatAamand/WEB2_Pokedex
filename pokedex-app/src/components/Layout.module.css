@@ -1,0 +1,47 @@
+.wrapper {
+    font-family: 'VT323', monospace;
+    background-color: #1e1e1e;
+    min-height: 100vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    background-color: #c62828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #111;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    color: #ffe082;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.2s;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+    color: #ffccbc;
+  }
+  
+  .main {
+    padding: 2rem;
+    flex-grow: 1;
+  }
+  

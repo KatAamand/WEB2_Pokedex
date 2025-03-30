@@ -1,0 +1,73 @@
+.card {
+    border-radius: 8px;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 10px #00000033;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .name {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    text-transform: capitalize;
+  }
+  
+  .typeList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .typeBadge {
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Type-specific background colors */
+  .fire {
+    background-color: #F54C4C;
+  }
+  
+  .water {
+    background-color: #318AF3;
+  }
+  
+  .grass {
+    background-color: #92CB61;
+  }
+  
+  .electric {
+    background-color: #F4D349;
+    color: black;
+  }
+  
+  .psychic {
+    background-color: #AA69C3;
+  }
+  
+  .normal {
+    background-color: #B17130;
+  }
+
+  .bug {
+    background-color: #42BA69;
+  }
+  
+  .default {
+    background-color: #A2A2A2;
+  }
+  
