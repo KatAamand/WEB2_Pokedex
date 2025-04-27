@@ -1,0 +1,123 @@
+/* PokemonModal.module.css */
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 700px;
+    width: 80%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.modalContent {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    padding: 1rem;
+}
+
+.imageSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.detailsSection {
+    flex: 2;
+}
+
+.name {
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    margin-bottom: 1rem;
+}
+
+.statsBox {
+    background-color: #bbb;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    color: black;
+    margin-bottom: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.statsColumn {
+    flex: 1;
+    min-width: 120px;
+}
+
+
+.statsSection {
+    margin-top: 1rem;
+}
+
+.statsSection ul {
+    padding: 0;
+}
+
+.statsSection li {
+    list-style-type: none;
+}
+
+.typeList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.typeBadge {
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Type-specific colors */
+.normal { background-color: #bba66e; color: #000; }
+.fighting { background-color: #6d4c41; }
+.flying { background-color: #757575; }
+.poison { background-color: #8e44ad; }
+.ground { background-color: #a1887f;}
+.rock { background-color: #616161; }
+.bug { background-color: #81c784; color: #000; }
+.ghost { background-color: #f5f5f5; color: #000; }
+.steel { background-color: #90a4ae; color: #000; }
+.fire { background-color: #e57373; color: #000; }
+.water { background-color: #64b5f6; }
+.grass { background-color: #aed581; color: #000; }
+.electric { background-color: #ffeb3b; color: #000; }
+.psychic { background-color: #ba68c8; }
+.ice { background-color: #81d4fa; color: #000; }
+.dragon { background-color: #c62828; }
+.dark { background-color: #424242; }
+.fairy { background-color: #ce93d8; color: #000; }
+.stellar { background-color: #757575; }
+
